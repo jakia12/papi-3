@@ -14,10 +14,15 @@ a:hover {
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
   font-family: Itim;
-  font-size: 36px;
+  font-size: 40px;
   font-style: normal;
+  /* font-weight: 400; */
   font-weight: 400;
   line-height: normal;
+}
+
+.hero-sec{
+  height: 100vh;
 }
 
 .paragraph2 {
@@ -26,7 +31,7 @@ a:hover {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgb(24, 24, 24);
   font-family: Itim;
-  font-size: 30px;
+  font-size: 35px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -197,5 +202,8 @@ section {
     position: static;
 
     width: 98%;
+  }
+  .hero-sec{
+    height: auto;
   }
 }
