@@ -197,6 +197,15 @@ section {
   width: 470px;
 }
 
+#nav-li{
+  color: black !important;
+}
+
+#nav-li:hover{
+  color: gray !important;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
   .pos_img {
     position: static;
@@ -207,3 +216,5 @@ section {
     height: auto;
   }
 }
+
+
