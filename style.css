@@ -44,7 +44,7 @@ a:hover {
   line-height: normal;
 }
 
-section{
+section {
   position: relative;
 }
 
@@ -69,11 +69,11 @@ section{
 }
 
 .span1 {
-  color: #FFCD4E;
+  color: #ffcd4e;
 }
 
 .span2 {
-  color: #59FF56;
+  color: #59ff56;
 }
 
 .hbti {
@@ -130,17 +130,11 @@ section{
   bottom: -418px;
 }
 
-.rec-border{
-
+.rec-border {
   position: absolute;
   bottom: 0;
   left: 0;
-  
 }
-
-
-
-
 
 /* scroll down animation */
 /* 
@@ -191,3 +185,9 @@ section{
     opacity: 0;
   }
 } */
+
+.pos_img {
+  position: absolute;
+  top: 27%;
+  width: 470px;
+}
