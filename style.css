@@ -193,8 +193,9 @@ section {
 
 .pos_img {
   position: absolute;
-  top: 28%;
-  width: 590px;
+    top: 16%;
+    left: -16%;
+    width: 540px;
 }
 
 #nav-li{
