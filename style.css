@@ -22,7 +22,7 @@ a:hover {
 }
 
 .hero-sec {
-  height: 150vh;
+  height: 110vh;
 }
 
 .paragraph2 {
@@ -225,6 +225,12 @@ section {
   padding: 70px 0;
   position: relative;
 }
+@media screen and (max-width: 1600px) {
+  .hero-sec {
+    height: 150vh;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .pos_img {
     position: static;
