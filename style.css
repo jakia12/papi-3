@@ -21,8 +21,8 @@ a:hover {
   line-height: normal;
 }
 
-.hero-sec{
-  height: 100vh;
+.hero-sec {
+  height: 150vh;
 }
 
 .paragraph2 {
@@ -193,29 +193,45 @@ section {
 
 .pos_img {
   position: absolute;
-    top: 16%;
-    left: -16%;
-    width: 540px;
+  top: 16%;
+  left: -16%;
+  width: 540px;
 }
 
-#nav-li{
+#nav-li {
   color: black !important;
 }
 
-#nav-li:hover{
+#nav-li:hover {
   color: gray !important;
   text-decoration: none;
 }
+.tkn_bg {
+  background-image: linear-gradient(#fe9c34, #fe9c34),
+    url("/assets/images/footer.png");
+  background-blend-mode: multiply;
+  background-size: cover;
 
+  padding: 70px 0;
+  position: relative;
+}
+
+.howtb_bg {
+  background-image: linear-gradient(#fe9c34, #fe9c34),
+    url("/assets/images/bg.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+
+  padding: 70px 0;
+  position: relative;
+}
 @media screen and (max-width: 768px) {
   .pos_img {
     position: static;
 
     width: 98%;
   }
-  .hero-sec{
+  .hero-sec {
     height: auto;
   }
 }
-
-
